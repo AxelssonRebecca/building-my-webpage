@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(-90deg, red, orange, yellow, green, blue, purple);
+  background-color: #FFEBB7;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,10 +31,11 @@ p {
   width: inherit;
   display: flex;
   flex-direction: column;
-}
 
 input {
   margin-top: 10 px;
+    background-color: #FFC97C;
+    color: white;
 }
 
 .addText {
@@ -50,13 +51,13 @@ button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #FFC97C;
   border: none;
   border-radius: 15px;
   box-shadow: 0 3px #999;
 }
 
 button:active {
-  background-color: #3e8e41;
+  background-color: #FFC97C;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
