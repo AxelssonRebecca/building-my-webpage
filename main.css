@@ -1,0 +1,62 @@
+
+body {
+  background: linear-gradient(-90deg, red, orange, yellow, green, blue, purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+
+}
+
+p {
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.inputSection {
+  margin: 30px 0px 30px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10 px;
+}
+
+.addText {
+  margin-top: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
