@@ -31,11 +31,8 @@ p {
   width: inherit;
   display: flex;
   flex-direction: column;
-
-input {
-  margin-top: 10 px;
-    background-color: #FFC97C;
-    color: white;
+  background-color: white;
+  color: black;
 }
 
 .addText {
